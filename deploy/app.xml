@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Module>
+    <!-- /*
+ * Copyright (c) 2011 Google Inc.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); you may not
+ * use this file except in compliance with the License. You may obtain a copy
+ * of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
+ * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
+ * License for the specific language governing permissions and limitations under
+ * the License.
+ */ -->
+<ModulePrefs title="Hangout Testbed">
+<Require feature="rpc"/>
+</ModulePrefs>
+	<Content type="html">
+		<![CDATA[
+			<!DOCTYPE html>
+			<!-- The hangout API JavaScript. Always include this first -->
+			<script src="//hangoutsapi.talkgadget.google.com/hangouts/api/hangout.js?v=1.1"></script>
+			
+			<!-- AS3/JS Hangout bridge scripts -->
+			<script src="https://hangouts.byhook.com/hangouttestbed/settings.js" type="text/javascript"></script>
+			<script src="https://hangouts.byhook.com/hangouttestbed/swfobject.js" type="text/javascript"></script>
+			<script src="https://hangouts.byhook.com/hangouttestbed/jsBridge.js" type="text/javascript"></script>
+			<script src="https://hangouts.byhook.com/hangouttestbed/hangoutBridge.js" type="text/javascript"></script>
+			<script src="https://hangouts.byhook.com/hangouttestbed/main.js" type="text/javascript"></script>
+			
+			<style type="text/css">
+			
+			html, body {
+				height:100%;
+			}
+			
+			</style>
+			
+			<div id="scrollyDiv" style="overflow:auto; height:100%;">
+				<div id="outerDiv" style="width:1024px;height:638px;margin:auto;">
+					<div id="altContent">
+						<h1>test</h1>
+						<p>Alternative content</p>
+						<p><a href="https://www.adobe.com/go/getflashplayer"><img 
+							src="https://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" 
+							alt="Get Adobe Flash player" /></a></p>
+					</div>
+				</div>
+			</div>
+			
+		]]>
+	</Content>
+</Module>
