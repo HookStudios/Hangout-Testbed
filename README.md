@@ -5,7 +5,7 @@ To learn all about hangouts and the testbed / AS3 bridge system check out our bl
 (insert blog post link)
 </p>
 
-<h1>Start a hangout with the testbed here:</h1>
+<h3>Start a hangout with the testbed here:</h3>
 <a href="https://plus.google.com/hangouts/_?gid=16018758775" style="text-decoration:none;">
     <img src="https://ssl.gstatic.com/s2/oz/images/stars/hangout/1/gplus-hangout-60x230-normal.png"
 		alt="Start a Hangout"
