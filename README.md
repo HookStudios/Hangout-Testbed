@@ -2,7 +2,9 @@ Hangout-Testbed
 ===============
 <p>
 To learn all about hangouts and the testbed / AS3 bridge system check out our blog post here:
-(insert blog post link)
+</p>
+<p>
+<a href="http://labs.byhook.com/2012/07/09/google-hangouts-as3-bridge-and-testbed/">http://labs.byhook.com/2012/07/09/google-hangouts-as3-bridge-and-testbed/</a>
 </p>
 
 <h3>Start a hangout with the testbed here:</h3>
